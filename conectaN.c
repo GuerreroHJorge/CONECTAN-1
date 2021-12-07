@@ -41,7 +41,7 @@ typedef struct juego Juego;                         //Regresa una estructura vac
 Juego *nuevoJuego(int N){
     Juego *nuevoJuego = malloc(sizeof(Juego));
 
-    Movimiento **arreglo1 = malloc(1000);
+    Movimiento **arreglo1;
     nuevoJuego->jugador1 = arreglo1;
 
     nuevoJuego-> turno = 0;
